@@ -1,0 +1,80 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #8e44ad, #ff79c6);
+    text-align: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
+
+#timer {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+button {
+    background: linear-gradient(45deg, #ff79c6, #bd93f9);
+    border: none;
+    color: white;
+    padding: 12px 18px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#theme-select {
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.quote {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.2); /* Lighter white */
+    backdrop-filter: blur(5px);
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px; /* Increased font size */
+    font-weight: bold;
+    max-width: 300px;
+    text-align: center;
+}
+
+
+.pomodoro-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
